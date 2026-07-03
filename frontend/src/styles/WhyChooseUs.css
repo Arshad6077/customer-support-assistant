@@ -1,0 +1,39 @@
+.why-choose-us {
+  padding: 80px 10%;
+  background: #f8fafc;
+  text-align: center;
+}
+
+.why-choose-us h2 {
+  font-size: 38px;
+  margin-bottom: 50px;
+  color: #1e293b;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.feature-card {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+
+.feature-card:hover {
+  transform: translateY(-8px);
+}
+
+.feature-card h3 {
+  color: #2563eb;
+  margin-bottom: 15px;
+}
+
+.feature-card p {
+  color: #475569;
+  line-height: 1.6;
+}

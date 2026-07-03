@@ -1,0 +1,42 @@
+.support-section{
+    background:#2563eb;
+    color:white;
+    text-align:center;
+    padding:80px 10%;
+}
+
+.support-section h2{
+    font-size:40px;
+    margin-bottom:20px;
+}
+
+.support-section p{
+    font-size:20px;
+    line-height:1.8;
+}
+
+.support-buttons{
+    margin-top:40px;
+    display:flex;
+    justify-content:center;
+    gap:20px;
+}
+
+.support-buttons button{
+    width:220px;
+    padding:15px;
+    border:none;
+    border-radius:30px;
+    cursor:pointer;
+    font-size:17px;
+    transition:.3s;
+
+    background:white;
+    color:#2563eb;
+    font-weight:bold;
+}
+
+.support-buttons button:hover{
+    transform:translateY(-5px);
+    background:#e5e7eb;
+}
